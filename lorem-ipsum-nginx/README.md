@@ -37,7 +37,3 @@ Do note that the lorem-ipsum-nginx example is intended not as an exemplar for th
 # Describes how Docker builds the Docker Image.
 ./Dockerfile
 ```
-
-### Excercises
-
-Download [container_workshop_excercises.md](https://github.com/p3kk4/container-workshop/blob/master/container_workshop_excercises.md){:target="_blank"} file for yourself and use it to document any commands, notes and comments that you use to learn about Docker Containers during the workshop or

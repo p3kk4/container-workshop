@@ -36,6 +36,10 @@ ssh exampleuser@123.10.10.29
 
 If you have Windows and you do not have OpenSSH Client Feature installed one possible SSH client application that can be used with Windows could be [Putty](https://www.putty.org/){:target="_blank"}.
 
+### Excercises
+
+Download [container_workshop_excercises.md](https://github.com/p3kk4/container-workshop/blob/master/container_workshop_excercises.md){:target="_blank"} file for yourself and use it to document any commands, notes and comments that you use to learn about Docker Containers during the workshop or self-paced learning.
+
 ## Key Concepts
 
 In the context of this material package it is important to learn about concepts **Container** and **Orchestration**.
