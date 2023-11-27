@@ -26,7 +26,7 @@ The major contents of the container-workshop repository are:
 
 ## Learning Environment Access
 
-You can take SSH (port 22) and HTTP (port 80) connections to the learning environment AWS EX2 instances by using provided IP address, username and password. The learning environment instances are available during the workshop and will be immediately destroyed after the workshop. You do not need to send or retrieve any data from the learning environment as all the materials are available publicly on GitHub.
+You can take SSH (port 22) connection to the learning environment AWS EC2 instances by using provided IP address, username and password. The learning environment AWS EC2 instances also support taking HTTP (port 80) requests from the Internet. The learning environment instances are available during the workshop and will be immediately destroyed after the workshop. You do not need to send or retrieve any data from the learning environment as all the materials are available publicly on GitHub.
 
 You can simply use standard terminal of your Linux OS, Mac OS or Windows OS (if you have OpenSSH Client Feature installed) to connect to the learning environment AWS EC2 instances:
 
