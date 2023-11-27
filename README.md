@@ -10,7 +10,7 @@ Welcome to the **Container Workshop** by [pekkakorpi-tassi.fi](https://pekkakorp
 
 ## Overview
 
-The [container-workshop](https://github.com/){:target="_blank"} repository is available on GitHub and serves as a material package that includes all the necessary resources required to learn about Docker containers via practical examples.
+The [container-workshop](https://github.com/p3kk4/container-workshop){:target="_blank"} repository is available on GitHub and serves as a material package that includes all the necessary resources required to learn about Docker containers via practical examples.
 
 The material package can be used for self-paced learning, although it is primarily meant to be complemented by instructor-led workshops. During the workshops learners can engage in hands-on learning activities and building their own documentation while exploring Docker containers.
 
@@ -18,8 +18,9 @@ The learning environment for the workshops is meant to be learner-specific preco
 
 The major contents of the container-workshop repository are:
 
-- **lorem-ipsum-nginx** teaches how to run [NGINX](https://www.nginx.com){:target="_blank"} web server to deliver static website by using Docker.
-- **lorem-ipsum-node** teaches how to run [Node.js](https://nodejs.org/en){:target="_blank"} application to deliver dynamic website/web service by using Docker.
+- [lorem-ipsum-node](https://github.com/p3kk4/container-workshop/tree/master/lorem-ipsum-node){:target="_blank"}
+ teaches how to run [Node.js](https://nodejs.org/en){:target="_blank"} application to deliver dynamic website/web service by using Docker.
+- [lorem-ipsum-nginx](https://github.com/p3kk4/container-workshop/tree/master/lorem-ipsum-nginx){:target="_blank"} teaches how to run [NGINX](https://www.nginx.com){:target="_blank"} web server to deliver static website by using Docker.
 - ***lorem-ipsum-python is possible future content is currently not available.***
 - ***lorem-ipsum-golang is possible future content is currently not available.***
 
@@ -44,7 +45,11 @@ In the context of this material package it is important to learn about concepts 
 Docker defines [What is a container?](https://docs.docker.com/guides/walkthroughs/what-is-a-container){:target="_blank"} as follows:
 
 ```text
-A container is an isolated environment for your code. This means that a container has no knowledge of your operating system, or your files. It runs on the environment provided to you by Docker Desktop. Containers have everything that your code needs in order to run, down to a base operating system. You can use Docker Desktop to manage and explore your containers.
+A container is an isolated environment for your code. This means that a container has no
+knowledge of your operating system, or your files. It runs on the environment provided
+to you by Docker Desktop. Containers have everything that your code needs in order to run,
+down to a base operating system. You can use Docker Desktop to manage and explore your
+containers.
 ```
 
 **Links:**
