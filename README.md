@@ -6,11 +6,11 @@
   </div>
 </div>
 
-Welcome to the **Container Workshop** by [pekkakorpi-tassi.fi](https://pekkakorpi-tassi.fi){:target="_blank"}!
+Welcome to the **Container Workshop** by [pekkakorpi-tassi.fi](https://pekkakorpi-tassi.fi)!
 
 ## Overview
 
-The [container-workshop](https://github.com/p3kk4/container-workshop){:target="_blank"} repository is available on GitHub and serves as a material package that includes all the necessary resources required to learn about Docker containers via practical examples.
+The [container-workshop](https://github.com/p3kk4/container-workshop) repository is available on GitHub and serves as a material package that includes all the necessary resources required to learn about Docker containers via practical examples.
 
 The material package can be used for self-paced learning, although it is primarily meant to be complemented by instructor-led workshops. During the workshops learners can engage in hands-on learning activities and building their own documentation while exploring Docker containers.
 
@@ -18,9 +18,8 @@ The learning environment for the workshops is meant to be learner-specific preco
 
 The major contents of the container-workshop repository are:
 
-- [lorem-ipsum-node](https://github.com/p3kk4/container-workshop/tree/master/lorem-ipsum-node){:target="_blank"}
- teaches how to run [Node.js](https://nodejs.org/en){:target="_blank"} application to deliver dynamic website/web service by using Docker.
-- [lorem-ipsum-nginx](https://github.com/p3kk4/container-workshop/tree/master/lorem-ipsum-nginx){:target="_blank"} teaches how to run [NGINX](https://www.nginx.com){:target="_blank"} web server to deliver static website by using Docker.
+- [lorem-ipsum-node](https://github.com/p3kk4/container-workshop/tree/master/lorem-ipsum-node) teaches how to run [Node.js](https://nodejs.org/en)application to deliver dynamic website/web service by using Docker.
+- [lorem-ipsum-nginx](https://github.com/p3kk4/container-workshop/tree/master/lorem-ipsum-nginx) teaches how to run [NGINX](https://www.nginx.com)web server to deliver static website by using Docker.
 - ***lorem-ipsum-python is possible future content is currently not available.***
 - ***lorem-ipsum-golang is possible future content is currently not available.***
 
@@ -34,11 +33,11 @@ You can simply use standard terminal of your Linux OS, Mac OS or Windows OS (if 
 ssh exampleuser@123.10.10.29
 ```
 
-If you have Windows and you do not have OpenSSH Client Feature installed one possible SSH client application that can be used with Windows could be [Putty](https://www.putty.org/){:target="_blank"}.
+If you have Windows and you do not have OpenSSH Client Feature installed one possible SSH client application that can be used with Windows could be [Putty](https://www.putty.org/).
 
 ### Excercises
 
-Download [container_workshop_excercises.md](https://github.com/p3kk4/container-workshop/blob/master/container_workshop_excercises.md){:target="_blank"} file for yourself and use it to document any commands, notes and comments that you use to learn about Docker Containers during the workshop or self-paced learning.
+Download [container_workshop_excercises.md](https://github.com/p3kk4/container-workshop/blob/master/container_workshop_excercises.md) file for yourself and use it to document any commands, notes and comments that you use to learn about Docker Containers during the workshop or self-paced learning.
 
 ## Key Concepts
 
@@ -46,7 +45,7 @@ In the context of this material package it is important to learn about concepts 
 
 ### Container
 
-Docker defines [What is a container?](https://docs.docker.com/guides/walkthroughs/what-is-a-container){:target="_blank"} as follows:
+Docker defines [What is a container?](https://docs.docker.com/guides/walkthroughs/what-is-a-container) as follows:
 
 ```text
 A container is an isolated environment for your code. This means that a container has no
@@ -58,13 +57,13 @@ containers.
 
 **Links:**
 
-- [Docker](https://www.docker.com){:target="_blank"}
-- [Docker Hub](https://hub.docker.com){:target="_blank"}
-- [Docker reference documentation](https://docs.docker.com/reference){:target="_blank"}
-- [Docker CLI Cheat Sheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf){:target="_blank"}
-- [Install Docker on Linux](https://docs.docker.com/desktop/install/linux-install){:target="_blank"}
-- [Docker install on Mac](https://docs.docker.com/desktop/install/mac-install){:target="_blank"}
-- [Docker install on Windows](https://docs.docker.com/desktop/install/windows-install){:target="_blank"}
+- [Docker](https://www.docker.com)
+- [Docker Hub](https://hub.docker.com)
+- [Docker reference documentation](https://docs.docker.com/reference)
+- [Docker CLI Cheat Sheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf)
+- [Install Docker on Linux](https://docs.docker.com/desktop/install/linux-install)
+- [Docker install on Mac](https://docs.docker.com/desktop/install/mac-install)
+- [Docker install on Windows](https://docs.docker.com/desktop/install/windows-install)
 
 ### Orchestration
 
@@ -78,4 +77,4 @@ All the information in this repository is published in good faith and for genera
 
 Materials distributed here are made available under the terms of the Creative Commons Attribution Non Commercial No Derivatives 4.0 International License.
 
-- [https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en){:target="_blank"}
+- [https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en)

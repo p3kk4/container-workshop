@@ -1,16 +1,16 @@
 # Container Workshop Excercises
 
-This excercise template is meant to used during **Container Workshop** by [pekkakorpi-tassi.fi](https://pekkakorpi-tassi.fi){:target="_blank"} or by using it for self-paced learning. The template is available for download from [container-workshop](https://github.com/p3kk4/container-workshop){:target="_blank"} repository available on GitHub.
+This excercise template is meant to used during **Container Workshop** by [pekkakorpi-tassi.fi](https://pekkakorpi-tassi.fi)or by using it for self-paced learning. The template is available for download from [container-workshop](https://github.com/p3kk4/container-workshop)repository available on GitHub.
 
 ## Learn Docker CLI Commands
 
 During the workshop or self-paced learning you can use generative AI and Docker resources to help you:
 
-- [OpenAI ChatGPT](https://chat.openai.com/){:target="_blank"}
-- [Google Bard](https://bard.google.com){:target="_blank"}
-- [xAI Grok](https://grok.x.ai/){:target="_blank"}
-- [Docker reference documentation](https://docs.docker.com/reference){:target="_blank"}
-- [Docker CLI Cheat Sheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf){:target="_blank"}
+- [OpenAI ChatGPT](https://chat.openai.com/)
+- [Google Bard](https://bard.google.com)
+- [xAI Grok](https://grok.x.ai/)
+- [Docker reference documentation](https://docs.docker.com/reference)
+- [Docker CLI Cheat Sheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf)
 
 ### Basic Commands
 
@@ -62,7 +62,7 @@ You can download any available container images from public or private repositor
 
 That is the power of Docker containers: **You ship it and just run it anywhere!**
 
-**Sample Use-Case:** You can use containers as your development environment in [Visual Studio Code](https://code.visualstudio.com/docs/devcontainers/containers){:target="_blank"}.
+**Sample Use-Case:** You can use containers as your development environment in [Visual Studio Code](https://code.visualstudio.com/docs/devcontainers/containers).
 
 ```bash
 # Download image from repository to local Docker Always use tag as you specicy which image to get!)
@@ -75,7 +75,7 @@ That is the power of Docker containers: **You ship it and just run it anywhere!*
 
 ## lorem-ipsum-node
 
-**lorem-ipsum-node** teaches how to run [Node.js](https://nodejs.org/en){:target="_blank"} application to deliver dynamic website/web service by using Docker.
+**lorem-ipsum-node** teaches how to run [Node.js](https://nodejs.org/en)application to deliver dynamic website/web service by using Docker.
 
 ### Naming Convention
 
@@ -94,7 +94,7 @@ That is the power of Docker containers: **You ship it and just run it anywhere!*
 
 ### Build and Manage Docker Image
 
-You are working with local Docker Image repository of Docker! For real work scenarios you will be using [Docker Hub](https://hub.docker.com){:target="_blank"}!
+You are working with local Docker Image repository of Docker! For real work scenarios you will be using [Docker Hub](https://hub.docker.com)!
 
 ```bash
 # List Docker Images
@@ -180,7 +180,7 @@ curl http://host/replicaid
 
 ## lorem-ipsum-nginx
 
-**lorem-ipsum-nginx** teaches how to run [NGINX](https://www.nginx.com){:target="_blank"} web server to deliver static website by using Docker.
+**lorem-ipsum-nginx** teaches how to run [NGINX](https://www.nginx.com)web server to deliver static website by using Docker.
 
 ```bash
 # Decide name that you will consistently use with for IMAGE

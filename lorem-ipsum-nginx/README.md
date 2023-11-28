@@ -6,7 +6,7 @@
   </div>
 </div>
 
-**lorem-ipsum-nginx** is an example about usage of [NGINX](https://www.nginx.com){:target="_blank"} web server to serve static web page files. Note that NGINX has other major features such as acting as a HTTP request reverse proxy, which are not explored with this example. NGINX **Web Server** listens to a specific TCP port for HTTP Requests and sends back corresponding HTTP Responses.
+**lorem-ipsum-nginx** is an example about usage of [NGINX](https://www.nginx.com)web server to serve static web page files. Note that NGINX has other major features such as acting as a HTTP request reverse proxy, which are not explored with this example. NGINX **Web Server** listens to a specific TCP port for HTTP Requests and sends back corresponding HTTP Responses.
 
 This NGINX example can be build as a **Docker Image** based on **Dockerfile** that defines:
 
