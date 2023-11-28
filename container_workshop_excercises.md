@@ -1,6 +1,6 @@
 # Container Workshop Excercises
 
-This excercise template is meant to used during **Container Workshop** by [pekkakorpi-tassi.fi](https://pekkakorpi-tassi.fi){:target="_blank"} or by using it for self-paced learning. The template is available for download from [container-workshop](https://github.com/){:target="_blank"} repository available on GitHub.
+This excercise template is meant to used during **Container Workshop** by [pekkakorpi-tassi.fi](https://pekkakorpi-tassi.fi){:target="_blank"} or by using it for self-paced learning. The template is available for download from [container-workshop](https://github.com/p3kk4/container-workshop){:target="_blank"} repository available on GitHub.
 
 ## Learn Docker CLI Commands
 
@@ -27,23 +27,49 @@ During the workshop or self-paced learning you can use generative AI and Docker 
 
 ```bash
 # Connect to a running Container's CLI
-docker exec -it lorem-ipsum-node sh
 
 # Some example CLI commands to run on running Container
-ls -la
-pwd
 whoami
 printenv
 ps aux
+
+# Navigating file system with CLI commands on running Container
+pwd
+ls -la
+cd folder
+cd ..
+touch example.txt
+pico example.txt
+
+# Exit the instance
+exit
 ```
 
 ### Activate or Deactivate Swarm More for Container Orchestration
 
 By default Docker is running in standalone Containers mode!
+
 ```bash
 # Switch to Docker Swarm Mode for running Container services
 
 # Leave Docker Swarm Mode for running standalone Containers
+
+```
+
+## Container Images from Docker Hub
+
+You can download any available container images from public or private repositories and immediately run in on your computer's Docker without any configurations!
+
+That is the power of Docker containers: **You ship it and just run it anywhere!**
+
+**Sample Use-Case:** You can use containers as your development environment in [Visual Studio Code](https://code.visualstudio.com/docs/devcontainers/containers){:target="_blank"}.
+
+```bash
+# Download image from repository to local Docker Always use tag as you specicy which image to get!)
+
+# Create Container (does it stay running?)
+
+# Create Container in interactive mode with sh/bash
 
 ```
 
