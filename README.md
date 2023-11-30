@@ -18,8 +18,8 @@ The learning environment for the workshops is meant to be learner-specific preco
 
 The major contents of the container-workshop repository are:
 
-- [lorem-ipsum-node](https://github.com/p3kk4/container-workshop/tree/master/lorem-ipsum-node) teaches how to run [Node.js](https://nodejs.org/en)application to deliver dynamic website/web service by using Docker.
-- [lorem-ipsum-nginx](https://github.com/p3kk4/container-workshop/tree/master/lorem-ipsum-nginx) teaches how to run [NGINX](https://www.nginx.com)web server to deliver static website by using Docker.
+- [lorem-ipsum-node](https://github.com/p3kk4/container-workshop/tree/master/lorem-ipsum-node) teaches how to run [Node.js](https://nodejs.org/en) application to deliver dynamic website/web service by using Docker.
+- [lorem-ipsum-nginx](https://github.com/p3kk4/container-workshop/tree/master/lorem-ipsum-nginx) teaches how to run [NGINX](https://www.nginx.com) web server to deliver static website by using Docker.
 - ***lorem-ipsum-python is possible future content is currently not available.***
 - ***lorem-ipsum-golang is possible future content is currently not available.***
 
