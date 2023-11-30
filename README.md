@@ -95,8 +95,6 @@ I try to explain Orchestration to learners as a general term that encompasses ma
   - Docker technology provides Containers isolation as a fundamental feature. Containers do not affect other Containers or Operating System even if they fail.
 - High Availability
   - Docker Swarm run Services have Redundant resources to the amount of active Replicas so users do not notice any issues in service even if there is failure with one VM.
-- High Availability
-  - Docker Swarm run Services have Redundant resources to the amount of active Replicas so users do not notice any issues in service even if there is failure with one VM.
 - Health Checks
   - Docker Swarm is able to detect containers in failed state.
 - Auto Recovery
