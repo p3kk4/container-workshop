@@ -7,26 +7,77 @@ This excercise template is meant to used during **Container Workshop** by [pekka
 During the workshop or self-paced learning you can use generative AI and Docker resources to help you:
 
 - [OpenAI ChatGPT](https://chat.openai.com/)
+- [GitHub Copilot](https://github.com/features/copilot)
 - [Google Bard](https://bard.google.com)
 - [xAI Grok](https://grok.x.ai/)
 - [Docker reference documentation](https://docs.docker.com/reference)
 - [Docker CLI Cheat Sheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf)
 
-### Basic Commands
+## Workshop VM Connection
+```bash
+# Use Putty or MacOS terminal to connect to VM, use password given to you by the trainer
+# HOX: Copy-paste to Putty windows should work in Windows by using right mouse click as "Paste"
+ssh studentadmin@ipaddress
+
+# Go to workshop content folder on VM
+cd /students
+ls -la
+```
+
+## Basic Docker Commands
 
 ```bash
+# Test that docker is available
+
+# Test docker help for a given command
+
+# Docker system commands
+
 # List Docker Images
 
 # List Docker Containers
 
-# List Docker Services
-
 ```
 
-### Examine Running Container
+## Container Image from Docker Hub
+
+You can download any available container images from public or private repositories and immediately run in on your computer's Docker without any configurations!
+
+ Examples of common Docker Image repositories are:
+
+- [Docker Hub](https://hub.docker.com/)
+- [Amazon Elastic Container Repository](https://aws.amazon.com/ecr/)
+- [Azure Container Registry](https://azure.microsoft.com/en-us/products/container-registry)
+- [JFrog Artifactory](https://jfrog.com/help/r/jfrog-artifactory-documentation/docker-registry)
+
+That is the power of Docker containers: **You ship it and just run it anywhere!**
+
+**Sample Use-Case:** You can use containers as your development environment in [Visual Studio Code](https://code.visualstudio.com/docs/devcontainers/containers).
 
 ```bash
+# Search Docker Hub for images
+ubuntu
+node
+nginx
+
+# Download image from repository to local Docker Always use tag as you specicy which image to get!)
+ubuntu
+```
+
+### Working with Container
+
+```bash
+# Create Container (does it stay running?)
+
+# Create Container in interactive mode with sh/bash
+
+# Start and stop container so that it stays running (detached + interactive)
+
+# Create more containers...
+
 # Connect to a running Container's CLI
+bash
+sh
 
 # Some example CLI commands to run on running Container
 whoami
@@ -41,36 +92,8 @@ cd ..
 touch example.txt
 pico example.txt
 
-# Exit the instance
+# Exit the container instance
 exit
-```
-
-### Activate or Deactivate Swarm More for Container Orchestration
-
-By default Docker is running in standalone Containers mode!
-
-```bash
-# Switch to Docker Swarm Mode for running Container services
-
-# Leave Docker Swarm Mode for running standalone Containers
-
-```
-
-## Container Images from Docker Hub
-
-You can download any available container images from public or private repositories and immediately run in on your computer's Docker without any configurations!
-
-That is the power of Docker containers: **You ship it and just run it anywhere!**
-
-**Sample Use-Case:** You can use containers as your development environment in [Visual Studio Code](https://code.visualstudio.com/docs/devcontainers/containers).
-
-```bash
-# Download image from repository to local Docker Always use tag as you specicy which image to get!)
-
-# Create Container (does it stay running?)
-
-# Create Container in interactive mode with sh/bash
-
 ```
 
 ## lorem-ipsum-node
@@ -81,15 +104,17 @@ That is the power of Docker containers: **You ship it and just run it anywhere!*
 
 ```bash
 # Decide name that you will consistently use with for IMAGE
+image: 
 
 # Always include tag latest AND incrementing version to your IMAGE name
 :latest
 :0.0.1
 
 # Decide name that you will consistently use with for CONTAINER
+container: 
 
 # Decide name that you will consistently use with for SERVICE
-
+service: 
 ```
 
 ### Build and Manage Docker Image
@@ -99,13 +124,25 @@ You are working with local Docker Image repository of Docker! For real work scen
 ```bash
 # List Docker Images
 
-# Download Docker Image
-
 # Build Docker Image
+# HOX: When Docker build Docker Image it will download required image layers!
+# HOX: Note that as you build image like this, you will have to refer to it by IMAGE ID, which is not convenient...
+cd lorem-impsum-node
 
 # Build Docker Image with latest and version tags
 
+# HOX: We would connect Docker to Image Repository by doing login...
+docker login --username=exampleusername --email=examplemail@company.com
+
+# HOX: After building docker image we would PUSH it to Docker Repository...
+docker image push exampleusername/lorem-ipsum-node:0.0.1
+docker image push exampleusername/lorem-ipsum-node:latest
+
+# HOX: ...so that pertinent audiences can PULL Image from Docker Repository!
+docker pull exampleusername/lorem-ipsum-node:latest
+
 # Delete Docker Image
+
 
 # Cleanup Docker Data
 
@@ -119,6 +156,11 @@ You are working with standalone Docker containers and you are managing each cont
 # List Docker Containers
 
 # Create Container in attached mode
+# HOX: Note that as you test container, you can see logs in your terminal...
+# HOX: Exiting attached container stops it, if you can manage it!
+
+http://host
+http://host/lorem-ipsum
 
 # Create Container in detached mode
 
@@ -128,11 +170,24 @@ You are working with standalone Docker containers and you are managing each cont
 
 # + add exposing host OS folder within Container
 
+# Connect to a running Container's CLI
+
 # View Container Logs
 
 # Stop Container
 
 # Start Container
+
+```
+
+### Activate or Deactivate Swarm More for Container Orchestration
+
+By default Docker is running in standalone Containers mode!
+
+```bash
+# Switch to Docker Swarm Mode for running Container services
+
+# Leave Docker Swarm Mode for running standalone Containers
 
 ```
 
@@ -151,6 +206,8 @@ You are working with Docker Swarm container services and you are defining featur
 # + add passing of environmental variables
 
 # + add exposing host OS folder within Containers
+
+# Inspect service
 
 # View Service Logs
 
@@ -184,15 +241,17 @@ curl http://host/replicaid
 
 ```bash
 # Decide name that you will consistently use with for IMAGE
+image: 
 
 # Always include tag latest AND incrementing version to your IMAGE name
 :latest
 :0.0.1
 
 # Decide name that you will consistently use with for CONTAINER
+container: 
 
 # Decide name that you will consistently use with for SERVICE
-
+service: 
 ```
 
 ### Experiment With Learnings
