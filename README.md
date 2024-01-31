@@ -109,6 +109,6 @@ All the information in this repository is published in good faith and for genera
 
 ## License
 
-Materials distributed here are made available under the terms of the Creative Commons Attribution Non Commercial No Derivatives 4.0 International License.
+The materials of this workshop - specifically the associated entry on pekkakorpi-tassi.fi website and materials made available through GitHub repository github.com/p3kk4/container-workshop - are made available under the terms of the Creative Commons Attribution Non Commercial No Derivatives 4.0 International License.
 
 - [https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en)
